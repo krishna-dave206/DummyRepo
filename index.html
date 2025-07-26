@@ -2,67 +2,87 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About Me - Aadi Kalra</title>
+  <title>Newton School of Technology</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #ffe4ec, #e3f6f5);
       margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .card {
-      background-color: white;
-      padding: 30px;
-      border-radius: 12px;
-      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-      max-width: 500px;
-      text-align: center;
-    }
-    h1 {
-      color: #e91e63;
-    }
-    p {
-      font-size: 16px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f0f4ff, #e8f0fe);
       color: #333;
-      line-height: 1.6;
     }
-    .tags {
-      margin-top: 15px;
+
+    header {
+      background: #0047ab;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    .tag {
-      display: inline-block;
-      background-color: red;
-      color: green;
-      padding: 5px 10px;
-      margin: 5px;
-      border-radius: 20px;
-      font-size: 14px;
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 12px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #0047ab;
+      border-left: 4px solid #0047ab;
+      padding-left: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
     }
   </style>
 </head>
 <body>
 
-  <div class="card">
-    <h1>Hello, I'm Aadi 👋</h1>
-    <p>
-      I'm a tech enthusiast currently exploring the world of Python, Django, and Data Structures.<br>
-      With experience in Java and Spring Boot, I love building backend systems and solving real-world problems through code.<br>
-      I'm also a GSSoC 2025 Contributor, passionate about open-source and continuous learning.
-    </p>
-    <div class="tags">
-      <span class="tag">Python</span>
-      <span class="tag">Django</span>
-      <span class="tag">Java</span>
-      <span class="tag">Spring Boot</span>
-      <span class="tag">GSSoC 2025</span>
-    </div>
-  </div>
+  <header>Newton School of Technology</header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate and driven learner currently studying Computer Science with a focus on Artificial Intelligence. I love building smart automation systems and exploring the power of AI through hands-on projects. My goal is to innovate and build solutions that make life easier through technology.</p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>🔹 Python (Advanced)</li>
+      <li>🔹 C++ (Intermediate - via Headstart)</li>
+      <li>🔹 JavaScript, HTML, CSS</li>
+      <li>🔹 AI & Machine Learning (Basics)</li>
+      <li>🔹 Automation with Telethon and GUI Tools</li>
+      <li>🔹 PyInstaller for .exe packaging</li>
+      <li>🔹 OpenCV for computer vision</li>
+      <li>🔹 Voice command processing & web automation</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+      <li><strong>Jarvis-like AI Assistant:</strong> Built using Python, Telethon, and voice commands. It takes Telegram messages, opens sites, replies, and performs desktop automation.</li>
+      <li><strong>Python to EXE Tool:</strong> Developed packaging scripts using PyInstaller to convert complex automation into distributable .exe files.</li>
+      <li><strong>OpenCV Face Detection:</strong> Implemented real-time face recognition for login systems.</li>
+      <li><strong>Pi.ai Integration:</strong> Created a web automation script to open and interact with Pi.ai persistently.</li>
+      <li><strong>Arduino + AI Home Automation:</strong> Connected Python AI to Arduino via IR and Servo to mimic AC remote control.</li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025. All Rights Reserved.
+  </footer>
 
 </body>
 </html>
-
